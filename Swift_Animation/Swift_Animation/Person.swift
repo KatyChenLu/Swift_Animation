@@ -21,5 +21,12 @@ import UIKit
  */
 
 class Person: NSObject {
+//    var name:String
+//    override init() {
+//        name = "chen"
+//        super.init()
+//    }
+
+   
 
 }
