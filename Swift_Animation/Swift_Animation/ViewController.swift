@@ -42,10 +42,22 @@ class ViewController: UIViewController {
 //            }
 //        }
         
-        loadData { (result) in
-            print("this is result\(result)")
-        }
+//        loadData { (result) in
+//            print("this is result\(result)")
+//        }
         
+//        print("hello");
+        
+      
+        let individualScores = [75, 43, 103, 87, 12]
+        var teamScore = 0
+        for score in individualScores {
+            if score > 50 {
+                teamScore -= 1
+            } else {
+                teamScore += 1
+            } }
+        print(teamScore)
         
     }
 

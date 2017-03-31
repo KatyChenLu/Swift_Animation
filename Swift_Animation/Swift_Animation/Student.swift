@@ -13,12 +13,12 @@ class Student: Person {
     override init() {
         stu = "000"
         super.init()
-        name = "ji"
+//        name = "ji"
     }
     
-    init(name: String) {
-        print("person init 重载")
-        self.name = name
-        super.init()
-    }
+//    init(name: String) {
+//        print("person init 重载")
+////        self.name = name
+////        super.init()
+//    }
 }
