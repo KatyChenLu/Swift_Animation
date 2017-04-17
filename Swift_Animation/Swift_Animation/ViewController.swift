@@ -49,31 +49,125 @@ class ViewController: UIViewController {
 //        print("hello");
         
       
-        let individualScores = [75, 43, 103, 87, 12]
-        var teamScore = 0
-        for score in individualScores {
-            if score > 50 {
-                teamScore -= 1
-            } else {
-                teamScore += 1
-            } }
-        print(teamScore)
+//        let individualScores = [75, 43, 103, 87, 12]
+//        var teamScore = 0
+//        for score in individualScores {
+//            if score > 50 {
+//                teamScore -= 1
+//            } else {
+//                teamScore += 1
+//            } }
+//        print(teamScore)
+        
+       
+       
+        
+//        print( greet("John", on: "Wednesday"))
+//        let statistics = calculateStatistics(scores:[5, 3, 10])
+//        print(statistics.sum)
+//        print(statistics.1)
+        
+        
+       
+        
+//        print(sumOf())
+//        print( sumOf(numbers: 42, 597, 12))
+        
+        
+//       var increment = makeIncrementer()
+//    print(increment(7))
+//      
+        
+//        var numbers = [20, 19, 17, 12]
+//      
+//    
+//        print(  hasAnyMatches(list: numbers, condition: lessThanTen))
+//        var per = Person()
+//        per.numberOfSides = 7
+//        var personDesc = per.simpleDescription()
+//        
+//        print(personDesc)
+        
+//        for character in "Dog!?".characters {
+//            print(character)
+//        }
+//        let catCharacters: [Character] = ["C", "a", "t", "!", "?"]
+//        let catString = String(catCharacters)
+//        print(catString)
+        
+        
+        let multiplier = 3
+        let message = "\(multiplier) times 2.5 is \(Double(multiplier) * 2.5)"
+        // message 是 "3 times 2.5 is 7.5"
+        
         
     }
-
     
-    func loadData(completion: @escaping (_ result: [String]) -> ()) -> () {
-        DispatchQueue.global().async {
-            print("sleep")
-            Thread.sleep(forTimeInterval: 3)
-            let json = ["aaaa","bbb","cccccccc"]
-            DispatchQueue.main.async {
-                print("main load UI")
-                completion(json)
-            }
-        }
-        
-    }
+    
+//    func hasAnyMatches(list: [Int], condition: (Int) -> Bool) -> Bool {
+//        for item in list {
+//            if condition(item) {
+//                return true
+//            } }
+//        return false
+//    }
+//    func lessThanTen(number: Int) -> Bool {
+//        return number < 10
+//    }
+//    
+    
+//    func makeIncrementer() -> ((Int) -> Int) {
+//        func addOne(number: Int) -> Int {
+//            return 1 + number
+//        }
+//        return addOne
+//    }
+    
+    
+    
+//    func returnFifteen() -> Int {
+//        var y = 10
+//        func add() {
+//            y += 5
+//        }
+//        add()
+//        return y
+//    }
+//    func sumOf(numbers: Int...) -> Int {
+//        var sum = 0
+//        for number in numbers {
+//            sum += number
+//        }
+//        return sum
+//    }
+//    func calculateStatistics(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
+//        var min = scores[0]
+//        var max = scores[0]
+//        var sum = 0
+//        for score in scores {
+//            if score > max {
+//                max = score
+//            } else if score < min {
+//                min = score }
+//            sum += score }
+//        return (min, max, sum)
+//    }
+    
+//    func greet(_ person: String, on day: String) -> String {
+//        return "Hello \(person), today is \(day)."
+//    }
+//    func loadData(completion: @escaping (_ result: [String]) -> ()) -> () {
+//        DispatchQueue.global().async {
+//            print("sleep")
+//            Thread.sleep(forTimeInterval: 3)
+//            let json = ["aaaa","bbb","cccccccc"]
+//            DispatchQueue.main.async {
+//                print("main load UI")
+//                completion(json)
+//            }
+//        }
+//        
+//    }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

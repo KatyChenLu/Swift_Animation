@@ -16,9 +16,4 @@ class Student: Person {
 //        name = "ji"
     }
     
-//    init(name: String) {
-//        print("person init 重载")
-////        self.name = name
-////        super.init()
-//    }
 }
