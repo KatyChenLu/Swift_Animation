@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		725FE069581DE038A296E0C1 /* libPods-FadeInImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C41E57F495776DF250EBF /* libPods-FadeInImageDemo.a */; };
+		ECBA98BE1EC066AC001EB315 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98BD1EC066AC001EB315 /* main.m */; };
+		ECBA98C11EC066AC001EB315 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98C01EC066AC001EB315 /* AppDelegate.m */; };
+		ECBA98C41EC066AC001EB315 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98C31EC066AC001EB315 /* ViewController.m */; };
+		ECBA98C71EC066AC001EB315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA98C51EC066AC001EB315 /* Main.storyboard */; };
+		ECBA98C91EC066AC001EB315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECBA98C81EC066AC001EB315 /* Assets.xcassets */; };
+		ECBA98CC1EC066AC001EB315 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECBA98CA1EC066AC001EB315 /* LaunchScreen.storyboard */; };
+		ECBA98D81EC066F4001EB315 /* UIImageView+FadeIn.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98D71EC066F4001EB315 /* UIImageView+FadeIn.m */; };
+		ECBA98DF1EC06877001EB315 /* HttpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98DA1EC06877001EB315 /* HttpManager.m */; };
+		ECBA98E01EC06877001EB315 /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98DC1EC06877001EB315 /* Book.m */; };
+		ECBA98E11EC06877001EB315 /* RequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98DE1EC06877001EB315 /* RequestViewModel.m */; };
+		ECBA98E81EC068B3001EB315 /* BookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = ECBA98E61EC068B3001EB315 /* BookTableViewCell.m */; };
+		ECBA98E91EC068B3001EB315 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECBA98E71EC068B3001EB315 /* BookTableViewCell.xib */; };
+		ECBA98ED1EC06AD3001EB315 /* iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = ECBA98EC1EC06AD3001EB315 /* iOS.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3CA48336BC6323AF2C403887 /* Pods-FadeInImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FadeInImageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FadeInImageDemo/Pods-FadeInImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B13C41E57F495776DF250EBF /* libPods-FadeInImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FadeInImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD2BC1722E73F121DAAEA2C /* Pods-FadeInImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FadeInImageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FadeInImageDemo/Pods-FadeInImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBA98B91EC066AC001EB315 /* FadeInImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FadeInImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECBA98BD1EC066AC001EB315 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECBA98BF1EC066AC001EB315 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECBA98C01EC066AC001EB315 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECBA98C21EC066AC001EB315 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECBA98C31EC066AC001EB315 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECBA98C61EC066AC001EB315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECBA98C81EC066AC001EB315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECBA98CB1EC066AC001EB315 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECBA98CD1EC066AC001EB315 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECBA98D61EC066F4001EB315 /* UIImageView+FadeIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+FadeIn.h"; path = "../UIImageView+FadeIn.h"; sourceTree = "<group>"; };
+		ECBA98D71EC066F4001EB315 /* UIImageView+FadeIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+FadeIn.m"; path = "../UIImageView+FadeIn.m"; sourceTree = "<group>"; };
+		ECBA98D91EC06877001EB315 /* HttpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
+		ECBA98DA1EC06877001EB315 /* HttpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
+		ECBA98DB1EC06877001EB315 /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		ECBA98DC1EC06877001EB315 /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		ECBA98DD1EC06877001EB315 /* RequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestViewModel.h; sourceTree = "<group>"; };
+		ECBA98DE1EC06877001EB315 /* RequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestViewModel.m; sourceTree = "<group>"; };
+		ECBA98E51EC068B3001EB315 /* BookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookTableViewCell.h; sourceTree = "<group>"; };
+		ECBA98E61EC068B3001EB315 /* BookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookTableViewCell.m; sourceTree = "<group>"; };
+		ECBA98E71EC068B3001EB315 /* BookTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookTableViewCell.xib; sourceTree = "<group>"; };
+		ECBA98EC1EC06AD3001EB315 /* iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOS.png; sourceTree = "<group>"; };
+		ECBA98EE1EC06C23001EB315 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECBA98B61EC066AC001EB315 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725FE069581DE038A296E0C1 /* libPods-FadeInImageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A14D06E4FF6FDFAABA98902 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD2BC1722E73F121DAAEA2C /* Pods-FadeInImageDemo.debug.xcconfig */,
+				3CA48336BC6323AF2C403887 /* Pods-FadeInImageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A42A42D6DDB9F288F57EB649 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B13C41E57F495776DF250EBF /* libPods-FadeInImageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECBA98B01EC066AC001EB315 = {
+			isa = PBXGroup;
+			children = (
+				ECBA98BB1EC066AC001EB315 /* FadeInImageDemo */,
+				ECBA98BA1EC066AC001EB315 /* Products */,
+				9A14D06E4FF6FDFAABA98902 /* Pods */,
+				A42A42D6DDB9F288F57EB649 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ECBA98BA1EC066AC001EB315 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA98B91EC066AC001EB315 /* FadeInImageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECBA98BB1EC066AC001EB315 /* FadeInImageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA98EE1EC06C23001EB315 /* Singleton.h */,
+				ECBA98EC1EC06AD3001EB315 /* iOS.png */,
+				ECBA98E51EC068B3001EB315 /* BookTableViewCell.h */,
+				ECBA98E61EC068B3001EB315 /* BookTableViewCell.m */,
+				ECBA98E71EC068B3001EB315 /* BookTableViewCell.xib */,
+				ECBA98D61EC066F4001EB315 /* UIImageView+FadeIn.h */,
+				ECBA98D71EC066F4001EB315 /* UIImageView+FadeIn.m */,
+				ECBA98BF1EC066AC001EB315 /* AppDelegate.h */,
+				ECBA98C01EC066AC001EB315 /* AppDelegate.m */,
+				ECBA98D91EC06877001EB315 /* HttpManager.h */,
+				ECBA98DA1EC06877001EB315 /* HttpManager.m */,
+				ECBA98DB1EC06877001EB315 /* Book.h */,
+				ECBA98DC1EC06877001EB315 /* Book.m */,
+				ECBA98DD1EC06877001EB315 /* RequestViewModel.h */,
+				ECBA98DE1EC06877001EB315 /* RequestViewModel.m */,
+				ECBA98C21EC066AC001EB315 /* ViewController.h */,
+				ECBA98C31EC066AC001EB315 /* ViewController.m */,
+				ECBA98C51EC066AC001EB315 /* Main.storyboard */,
+				ECBA98C81EC066AC001EB315 /* Assets.xcassets */,
+				ECBA98CA1EC066AC001EB315 /* LaunchScreen.storyboard */,
+				ECBA98CD1EC066AC001EB315 /* Info.plist */,
+				ECBA98BC1EC066AC001EB315 /* Supporting Files */,
+			);
+			path = FadeInImageDemo;
+			sourceTree = "<group>";
+		};
+		ECBA98BC1EC066AC001EB315 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECBA98BD1EC066AC001EB315 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECBA98B81EC066AC001EB315 /* FadeInImageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECBA98D01EC066AC001EB315 /* Build configuration list for PBXNativeTarget "FadeInImageDemo" */;
+			buildPhases = (
+				E8D61093A1607848B8908D5B /* [CP] Check Pods Manifest.lock */,
+				ECBA98B51EC066AC001EB315 /* Sources */,
+				ECBA98B61EC066AC001EB315 /* Frameworks */,
+				ECBA98B71EC066AC001EB315 /* Resources */,
+				C24172EB29B13DED29FA494A /* [CP] Embed Pods Frameworks */,
+				CF22501190EC79A5C99E63BB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FadeInImageDemo;
+			productName = FadeInImageDemo;
+			productReference = ECBA98B91EC066AC001EB315 /* FadeInImageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECBA98B11EC066AC001EB315 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Chenlu;
+				TargetAttributes = {
+					ECBA98B81EC066AC001EB315 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ECBA98B41EC066AC001EB315 /* Build configuration list for PBXProject "FadeInImageDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECBA98B01EC066AC001EB315;
+			productRefGroup = ECBA98BA1EC066AC001EB315 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECBA98B81EC066AC001EB315 /* FadeInImageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECBA98B71EC066AC001EB315 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBA98ED1EC06AD3001EB315 /* iOS.png in Resources */,
+				ECBA98E91EC068B3001EB315 /* BookTableViewCell.xib in Resources */,
+				ECBA98CC1EC066AC001EB315 /* LaunchScreen.storyboard in Resources */,
+				ECBA98C91EC066AC001EB315 /* Assets.xcassets in Resources */,
+				ECBA98C71EC066AC001EB315 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C24172EB29B13DED29FA494A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FadeInImageDemo/Pods-FadeInImageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF22501190EC79A5C99E63BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FadeInImageDemo/Pods-FadeInImageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D61093A1607848B8908D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECBA98B51EC066AC001EB315 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECBA98DF1EC06877001EB315 /* HttpManager.m in Sources */,
+				ECBA98C41EC066AC001EB315 /* ViewController.m in Sources */,
+				ECBA98D81EC066F4001EB315 /* UIImageView+FadeIn.m in Sources */,
+				ECBA98C11EC066AC001EB315 /* AppDelegate.m in Sources */,
+				ECBA98E81EC068B3001EB315 /* BookTableViewCell.m in Sources */,
+				ECBA98E01EC06877001EB315 /* Book.m in Sources */,
+				ECBA98BE1EC066AC001EB315 /* main.m in Sources */,
+				ECBA98E11EC06877001EB315 /* RequestViewModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ECBA98C51EC066AC001EB315 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBA98C61EC066AC001EB315 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECBA98CA1EC066AC001EB315 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECBA98CB1EC066AC001EB315 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECBA98CE1EC066AC001EB315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECBA98CF1EC066AC001EB315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECBA98D11EC066AC001EB315 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAD2BC1722E73F121DAAEA2C /* Pods-FadeInImageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadeInImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.Chen.FadeInImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECBA98D21EC066AC001EB315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA48336BC6323AF2C403887 /* Pods-FadeInImageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FadeInImageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lulu.Chen.FadeInImageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECBA98B41EC066AC001EB315 /* Build configuration list for PBXProject "FadeInImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBA98CE1EC066AC001EB315 /* Debug */,
+				ECBA98CF1EC066AC001EB315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECBA98D01EC066AC001EB315 /* Build configuration list for PBXNativeTarget "FadeInImageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECBA98D11EC066AC001EB315 /* Debug */,
+				ECBA98D21EC066AC001EB315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECBA98B11EC066AC001EB315 /* Project object */;
+}
